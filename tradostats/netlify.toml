@@ -1,0 +1,8 @@
+# Netlify Build Configuration for Tradostats App
+
+[build]
+  publish = ".next"
+  command = "npm run build"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
