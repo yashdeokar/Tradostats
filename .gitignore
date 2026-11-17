@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+**/node_modules/
+/.pnp
+.pnp.*
+
+# Next.js & Build Artifacts
+.next/
+**/.next/
+out/
+build/
+dist/
+*.tsbuildinfo
+next-env.d.ts
+
+# Agent & Harness Internal Caches
+.agent/
+.agents/
+.codex/
+.gemini/
+.impeccable/
+**/.impeccable/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Environment files
+.env*.local
+.env
+
+# OS Files
+.DS_Store
+Thumbs.db
+*.pem
